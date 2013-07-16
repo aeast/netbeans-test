@@ -12,7 +12,7 @@
         <title>Janrain Auth Page</title>
         <script type="text/javascript">
 (function() {
-    if (typeof window.janrain !== 'object') window.janrain = {};
+    if (typeof window.janrain !== 'object') window.janrain = {}; 
     if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};
     
     janrain.settings.tokenUrl = 'http://gci-aeast:8080/AndyTest/AuthTokenServlet';
